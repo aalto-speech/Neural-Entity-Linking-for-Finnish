@@ -10,4 +10,5 @@ The input is processed through a one layer BLSTM, after which the output is conc
 
 The context-mention pair is compared to the candidates, using cosine similarity.
 
-It uses fastText and entity embeddings. The fastText embeddings can be obtained from here: https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.fi.300.bin.gz. 
+It uses fastText and entity embeddings. The fastText embeddings can be obtained from here: https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.fi.300.bin.gz.
+The Entity embeddings are trained using the wiki2vec library on the Finnish Wikipedia dump. For more information about the training the entity embeddings, refer to this link: https://wikipedia2vec.github.io/wikipedia2vec/commands/. 
